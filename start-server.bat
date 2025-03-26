@@ -1,0 +1,3 @@
+@echo off
+echo Starting Next.js server on port 3000...
+npx next dev -p 3000 

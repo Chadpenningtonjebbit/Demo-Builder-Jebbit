@@ -21,9 +21,9 @@ export function Header() {
   const { theme, setTheme } = useTheme();
   
   return (
-    <header className="border-b border-border h-12 flex items-center justify-between px-4 bg-background/95 backdrop-blur-sm z-40 relative">
+    <header className="border-b border-border h-12 flex items-center justify-between pr-4 bg-background/95 backdrop-blur-sm z-40 relative">
       <div className="flex items-center gap-2">
-        <h1 className="text-lg font-bold">SimpleBuilder</h1>
+        <h1 className="text-lg font-bold pl-4">SimpleBuilder</h1>
       </div>
       
       <div className="flex items-center gap-2">
